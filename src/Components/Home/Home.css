@@ -1,0 +1,144 @@
+.main_container {
+  background-image: url("../../images/background.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main_heading {
+  font-size: 50px;
+  color: #f9f9f9;
+}
+
+.sub_heading {
+  font-size: 25px;
+  color: #f9f9f9;
+}
+
+.sub_heading > strong {
+  color: #204fab;
+}
+
+.links > a {
+  /* border: 2px solid #204fab; */
+  border-radius: 50px;
+  width: 150px;
+  padding: 16px;
+  text-decoration: none;
+  color: #f9f9f9;
+  background-color: #204fab;
+  text-align: center;
+}
+
+.links > .active {
+  /* border: 2px solid #204eab8a; */
+  background-color: #204eab8a;
+}
+
+.links > a:hover {
+  color: #f9f9f9;
+}
+
+.links > .active:hover {
+  color: #f9f9f9;
+}
+
+.main_resources {
+  margin: 20px 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.hero_text {
+  flex-basis: 60%;
+  font-size: 28px !important;
+  font-weight: 400;
+}
+
+.sub_hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.partners {
+  margin-top: 100px;
+}
+
+.partners > div > h4 {
+  text-align: center;
+}
+
+.partners_logo > ul > .logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.logos > li {
+  list-style-type: none;
+}
+
+.logos > li > a {
+  text-decoration: none;
+}
+
+.logos > li > a > img {
+  height: 38px;
+}
+
+.final_cards {
+  text-align: center;
+  /* margin: 20px; */
+}
+
+.card {
+  background-color: #dceafe !important;
+}
+
+.card-title {
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+@media (max-width: 390px) {
+  .links {
+    width: 100%;
+  }
+
+  .links > a {
+    padding: 10px;
+    margin: 5px 0;
+  }
+
+  .hero {
+    padding-top: 30px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero_text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1057px) {
+  .partners_logo > ul > .logos {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+  }
+}

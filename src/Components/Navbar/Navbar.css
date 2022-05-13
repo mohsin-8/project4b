@@ -1,0 +1,31 @@
+.navbar {
+  width: 100% !important;
+  /* position: fixed !important; */
+  /* z-index: 100 !important; */
+  background-color: #fff !important;
+}
+
+.nav-item > .nav-link {
+  color: #000 !important;
+  text-transform: uppercase !important;
+}
+
+.nav-item > .nav-link:hover {
+  color: #077efa !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler > span {
+  font-size: 35px !important;
+  color: #077efa !important;
+}
+
+.button {
+  background-color: #204fab !important;
+  color: #fff !important;
+  border-radius: 50px !important;
+  text-transform: uppercase !important;
+}
